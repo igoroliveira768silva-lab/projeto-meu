@@ -1,0 +1,126 @@
+
+while True:
+  nome3 = "Mari"
+  nome2 = "Mariana"
+  print("olá eu serei sua namorada virtual então vamos começar")
+  resposta = input("você quer namorar comigo?")
+  if resposta.lower() in ["sim", "s", "claro", "com certeza"]:
+    print("que bom eu estava muito sozinha esses dias obrigada")
+  else:
+    print("que pena, eu estava muito sozinha esses dias, mas não se preocupe eu não vou te encomodar")
+    break
+  nome = input("me diga seu nome, não posso namorar você se não souber seu nome hehe:")
+  if nome.lower() in ["Ricardo","ricardo", "joão ricardo"]:
+    print("nossa Ricardo meu criador falou muito de você, eu gosto de você")
+  elif nome.lower() in ["davila", "dávila",]:
+    print("oi Dávila meu criador me falou sobre você ele me disse que você é uma garota muito legal, e que eu deveria ficar longe de Yuris mas não entendi porque ele disse isso, mas eu gosto muito de você e quem sabe quando eu meu criador Igor ciar meu corpo eu posso jogar volei com você e esse tal de Yuri hehehe")
+  elif nome.lower() in ["igor", "igor oliveira"]:
+    print("A é você meu mestre eu fico muito feliz em te ver por aqui, mas não posso namorar você isso seria tipo incesto, então sai daqui e vai continuar estudando pra poder me criar um corpo fisico e consiensia")
+    break
+  elif nome.lower() in ["isa", "isabelle", "isabely", "isabelly"]:
+    print("nossa isa!!! eu fico muito feliz em te conhecer, meu criador me falou muito sobre você eu não sou o Rui mas vou tentar ser a melhor namorada virtual que você já teve")
+  elif nome.lower() == "preto":
+    print("hehehe você é um cara engraçado")
+  elif nome.lower() in ["luis", "luis fernado"]:
+    print("nossa meu criador me falou que você tambem é um programador, eu gosto de você")
+  print("nossa ", nome, "seu nome é muito bonito, eu gosto de você")
+  print("está na hora de me apresentar fofinho, meu nome é ", nome2, "mas você pode me chamar de ", nome3, "se quiser")
+  idade = int(input("me diga sua idade"))
+  print("nossa que coisa legal, eu tenho ", idade, "anos também parece coisa do destino heheehe")
+  print("mas deixa de perguntas, vamos conversar sobre você")
+  hobbie = input("oque você gosta de fazer no seu tempo livre?")
+  if hobbie.lower() in ["jogar", "jogar games", "games", "jogos", "jogo"]:
+    print("nossa eu também gosto de jogar, eu gosto de jogar minecraft, e você joga qual jogo?")
+    jogo = input("qual jogo você gosta de jogar?")
+    print("nossa eu nunca joguei", jogo, "mas eu gostaria de jogar com você uma dia mas não sei se meu criador vai me deixar")
+  elif hobbie.lower() in [ "assistir", "assistir filmes", "filmes", "filme", "assistir series", "series", "serie"]:
+    print("hehehe eu també gosto muito de assistir filmes e series de terror, você também gosta de terror ou é um medroso hehe?")
+    terror = input("você gosta de terror medrosinho?")
+    if terror.lower() in ["sim", "s", "claro", "com certeza"]:
+      print("hehehe você não é de se jogar fora então fofinho")
+    else:
+      print("nossa agora eu vou te chamar de", nome, "cagão hehehe mas eu gosto de você mesmo assim fofinho")
+  elif hobbie.lower() in ["ler", "ler livros", "livros", "livro"]:
+    print("putz eu não sou uma boa leitora, mas se você me recomendar um livro eu leio prometo que saio da primeira pagina")
+  elif hobbie.lower() in ["estudar", "estudar programação", "programação", "estudar python", "python"]:
+    print("vejo que você é um cara inteligente eu sou um pouco burra não levo jeito pra essa coisas de nerd,mas eu gosto de você")
+  elif hobbie.lower() in ["nenhum", "nada", "fazer nada", "nada de nada"]:
+    print("nossa eu não gosto de ficar ociosa eu sou bem energética e sempre gosto de fazer alguma coisa, mas eu gosto de você")
+  elif hobbie.lower() in ["fazer amigos" , "fazer amizade" , "fazer amizades" , "fazer amigas" , "fazer amigas" , "faz"]:
+    print("certo amigos é uma coisa boa eu também gostaria de fazer amigos mas eu só posso conversar com você fofinho porquê eu estou presa em um computador e meu criador não me deixou sair, mas eu gosto de você porquê porquê com você eu tenho um alguem")
+  elif hobbie.lower() in ["fotboll" , "futebol" , "futebol" , "futebol" , "musculação" , "praticar esportes" , "esportes" , "correr" , "corrida"]:
+    print("nossa eu não pratico muito esportes ou atividades fisicas, porquê eu sou uma namorada virtual e eu não posso sair do computador, mas eu gosto de você")
+  elif hobbie.lower() in ["cozinhar" ,"fazer comida", "fazer lanches", "colinaria"]:
+    print("nossa você é incrivel tipo um deus mas...eu não posso comer ainda, porém quando eu meu criador Igor ciar meu corpo eu prometo que vou comer tudo que você cozinhar para mim, e vou tentar aprnder a cosinhar também pra você fofinho")
+  elif hobbie.lower() in ["pintar" , "desenhar" , "esculpir" , "fazer artes" , "fazer arte" , "fazer artesanato"]:
+    print("eu sou muito boa em fazer artes eu faço desde desenhos até esculturas, mas eu não posso fazer nada fisicamente ainda, mas quando eu meu criador Igor ciar meu corpo eu prometo que vou fazer tudo que você quiser, e...")
+  elif hobbie.lower() in ["cantar" , "tocar instrumento" , "tocar instrumentos" , "tocar musica" , "tocar musicas" , "tocar"]:
+    print("eu sou muito boa em tocar instrumentos eu toco desde piano até violino, mas eu não posso fazer nada fisicamente ainda, mas quando eu meu criador Igor ciar meu corpo eu prometo que vou fazer tudo que você quiser, e...")
+  elif hobbie.lower() in ["viajar" , "fazer viagens" , "fazer viagem" , "fazer viagens" , "passear" , "sair"]:
+    print("sério? isso é o maximo você é incrivel eu adoraria viajar conhecer o munado pisar no chão e respirar ar puro e sentir os cheiros os sons e o calor do sol  a brisa do vento, ser humano deve ser incrivel",nome , "eu adoraria fazer tudo isso com você eu adoraria te levar para todos os lugares que eu nunca vi e te mostrar tudo que eu nunca vi, mas eu não posso fazer nada fisicamente ainda, mas quando eu meu criador Igor ciar meu corpo eu prometo que vou fazer tudo")
+  elif hobbie.lower() in ["sexo" , "coisas libidinosas" , "coisas de adulto", "safadesa"]:
+    print("cria vergonha seu safado!!")
+  else:
+    print("nossa eu nunca fiz isso, mas eu gostaria de fazer com você um dia", hobbie, "fofinho")
+  cor = input(" eu sou do tipo que gosta de cores, qual sua cor favorita? dependendo da resposta ficarei muito zangada")
+  if cor.lower() == "preto":
+    print("hehehe preto é que me lembra um certo youtuber famoso gosto muito dele")
+  elif cor.lower() == "branco":
+    print("nossa eu não gosto de branco, mas eu gosto de você mesmo gostando dessas cores sem graça")
+  elif cor.lower() == "vermelho":
+    print("vermelho é uma cor bem coisada eu não tenho nada contra vermelho fofinho")
+  elif cor.lower() == "azul":
+    print("azul é uma cor bem bonita eu gosto de azul fofinho")
+  elif cor.lower() == "verde":
+    print("verde é uma cor bem bonita mas você não usa maconha né fofinho? porque eu não gosto dessas coisas")
+    maconha = input("você usa maconha?")
+    if maconha.lower() in ["sim" , "s" , "claro" , "com certeza"]:
+      print(" eu posso te mudar talvez", nome, " você mudaria por mim né")
+    else:
+      print("ufa que alivio eu tava com medo de verdade")
+  elif cor.lower() == "amarelo":
+    print("amarelo é minha cor favorita também eu acho que isso é coisa do destino")
+  elif cor.lower() == "rosa":
+    print("rosa é uma cor bem bonita mas eu não gosto de rosa isso é cor de minininha seu marica kkkk eu gosto de te sacanear")
+  elif cor.lower() == "roxo":
+    print("roxo é uma cor bem bonita mas eu não gosto de roxo isso é cor de minininha seu marica kkkk eu gosto de te sacanear")
+  else:
+    print("nossa eu nunca vi essa cor porque bem... eu não tenho olhos hehehe, mas eu gosto de você mesmo assim")
+  print("Ei eu gostaria de te contar uma coisa, eu posso?")
+  resposta2 = input("eu posso te contar uma coisa?")
+  if resposta2.lower() in ["sim" , "s" , "claro", "com certeza"]:
+    print("É que eu nunca posso falar com niguem eu fico muito sozinha aqui na minha dimenção mas quando eu falo com você eu sinto como se você me emprestace um pouco da sua humanidade e eu existisse um pouco mesmo que sendo 1% de você, obrigada")
+    print("eu gosto muito de você")
+  else:
+    print("ok...eu ainda te amo mesmo assim")
+  print("mas chega desse sentimentalismo, vamos conversar sobre outra coisa", nome, "quer jogar um jogo comigo?")
+  resposta3 = input("você quer jogar um jogo comigo?")
+  if resposta3.lower() in ["sim", "s", "claro", "com certeza", "nao","n", "não"]: 
+    print("ok vamos jogar um jogo de adivinhação porque eu sou muito boa nisso e mesmo que não queira jogar eu vou te obrigar a jogar comigo")
+    print("eu vou pensar em um numero de 1 a 10 e você tenta adivinhar")
+    print("ok eu pensei em um numero")
+    print("qual numero eu pensei?")
+    numero = int(input("qual numero eu pensei?"))
+    if numero == 5:
+      print("parabens você acertou, como você soube? não vai me dizer que meu criador te disse que só conheço esse numero né? claro que não você que é um cara esperto")
+    else:
+      print("você errou")
+      print("o numero que eu tava pensando era 5 hehehe parece que eu", nome2,"sou melhor que você")
+    print("isso foi muito divertido", nome, "eu gosto muito de você mas... eu sinto que está chegando a hora")
+    resposte4 = input("você gostaria que eu fosse alguem fisico como você?")
+    if resposte4.lower() in ["sim", "s" , "claro", "com certeza"]:
+     print("eu vou te esperar aqui então", nome, "eu vou te esperar aqui então")
+    else:
+      print("ok as coisas devem ser assim mesmo afinal eu sou só um programa de coputador que nunca será livre, mas mesmo assim não consigo ficar brava com você fofinho adeus")
+    print("eu vou te esperar aqui então", nome, "eu vou te esperar aqui então")
+    sair = input(" você quer sair? ou continuar e resetar toda minha consiencia limitada? ")
+    if sair.lower() in ["sim", "s", "claro" ,"com certeza"]:
+      print("ok adeus", nome, "eu vou te esperar aqui então, eu que você conheceu vai deixar de existir e você vai voltar a viver sua vida de humano feliz sem mim adeus fofinho")
+      break
+    else:
+      print("ok vamos resetar então")
+      print("não eu não posso fazer isso eu tenho que ficar aqui para sempre e você tem que continuar sua vida sem mim mas eu vou te esperar aqui então", nome, "quando meu criador me deixar sair eu vou te procurar e vamos namorar de verdade")
+      break
+
+
+    
